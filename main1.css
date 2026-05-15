@@ -1,3 +1,4 @@
+/* Navigation Bar Styles */
 ul {
   list-style-type: none;
   margin: 0;
@@ -15,67 +16,28 @@ ul li a {
 
 ul li a:hover {
   background-color: #111111;
+  color: white;
 }
 
-body{
-    /*background: linear-gradient(135deg, #FFFFF0 0%, #0e4320 100%);; */
-    background: linear-gradient(160deg, #0e4320 0%,#FFFFF0 100%);;
-    
+/* Body Styles */
+body {
+  background: linear-gradient(160deg, #0e4320 0%, #FFFFF0 100%);
+  margin: 0;
+  padding: 0;
 }
 
-.pagecontent{
-    background-color: white;
-    width: 1200px;
-    height: 535px;
-    margin: 50px auto;
-    padding: 20px;
-    font-family: Georgia, serif;
-    font-size: 30px;
-    
-   
+/* Footer Styles */
+footer {
+  padding-top: 140px;
+  text-align: center;
 }
 
-#funcname2{
-  color: #0e4320;
-  display: inline;
-}
-
-.intro-line{
-  font-size: 25px;
-  margin-top: 20px;
-  width: 700px;
-  overflow: auto;
-}
-
-.photo{
-  float: right;
-  margin-right: 340px;
-}
-
-.brand{
+.brand {
   width: 100px;
   height: 80px;
-  float: right;
 }
 
-.brandli{
-  width: 50px;
-  height: 22px;
-}
-
-img{
-  width: 500px;
-  height: 575px;
-}
-
-.project-img{
-  width: 1200px;
-  height: 600px;
-}
-
-footer{
-  padding-top: 140px;
-}
+/* Media Queries for Responsive Design */
 
 /* Tablet and medium screens */
 @media (max-width: 1600px) {
@@ -166,7 +128,7 @@ footer{
 }
 
 /* Small phones */
-@media (max-width: 480px) {
+@media (max-width: 435px) {
   body {
     background-attachment: fixed;
   }
@@ -175,6 +137,7 @@ footer{
     width: 98%;
     padding: 10px;
     font-size: 16px;
+    background-color: aquamarine;
   }
 
   ul li a {
